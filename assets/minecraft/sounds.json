@@ -1,0 +1,18 @@
+{
+	"custom.nirvana":
+		{
+			"category": "master",
+			"sounds": [ "custom/nirvana" ]
+		}
+},
+{
+"item.goat_horn.nirvana": 
+	{
+	"sounds": [
+		{
+		"name": "item/goat_horn/nirvana"
+		}
+	],
+	"subtitle": "subtitles.item.goat_horn.play"
+}
+}

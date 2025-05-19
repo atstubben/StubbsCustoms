@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/totem_of_undying"
+    },
+    "cases": [
+      {
+        "when": "1",
+        "model": {
+          "type": "model",
+          "model": "item/jesus"
+        }
+      },
+      {
+        "when": "2",
+        "model": {
+          "type": "model",
+          "model": "item/pear_baby"
+        }
+      }
+    ]
+  }
+}

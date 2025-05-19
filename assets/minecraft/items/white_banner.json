@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "select",
+        "property": "minecraft:custom_model_data",
+	"fallback": {
+            	"type": "minecraft:special",
+            	"base": "minecraft:item/template_banner",
+            	"model": {
+                	"type": "minecraft:banner",
+                	"color": "white"
+            }
+        },
+        "cases": [
+            {
+                "when": "1",
+                "model": {
+                    "type": "minecraft:special",
+                    "base": "minecraft:item/custom_banner",
+                    "model": {
+                        "type": "minecraft:banner",
+                        "color": "white"
+                    }
+                }
+            }
+        ]
+    }
+}

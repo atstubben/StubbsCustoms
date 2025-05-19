@@ -1,0 +1,96 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "block/carved_pumpkin"
+    },
+    "cases": [
+      {
+        "when": "1",
+        "model": {
+          "type": "model",
+          "model": "item/pear_cube"
+        }
+      },
+      {
+        "when": "2",
+        "model": {
+          "type": "model",
+          "model": "item/mask/pear"
+        }
+      },
+      {
+        "when": "3",
+        "model": {
+          "type": "model",
+          "model": "item/mask/troll"
+        }
+      },
+      {
+        "when": "4",
+        "model": {
+          "type": "model",
+          "model": "item/mask/house"
+        }
+      },
+      {
+        "when": "5",
+        "model": {
+          "type": "model",
+          "model": "item/mask/fanum"
+        }
+      },
+      {
+        "when": "6",
+        "model": {
+          "type": "model",
+          "model": "item/mask/bron"
+        }
+      },
+      {
+        "when": "7",
+        "model": {
+          "type": "model",
+          "model": "item/mask/cheadle"
+        }
+      },
+      {
+        "when": "8",
+        "model": {
+          "type": "model",
+          "model": "item/mask/ed"
+        }
+      },
+      {
+        "when": "9",
+        "model": {
+          "type": "model",
+          "model": "item/mask/falcon"
+        }
+      },
+      {
+        "when": "10",
+        "model": {
+          "type": "model",
+          "model": "item/mask/gremlin"
+        }
+      },
+      {
+        "when": "11",
+        "model": {
+          "type": "model",
+          "model": "item/mask/orangutan"
+        }
+      },
+      {
+        "when": "12",
+        "model": {
+          "type": "model",
+          "model": "item/mask/troll"
+        }
+      }
+    ]
+  }
+}
